@@ -1,0 +1,9 @@
+La forma de solucionar el error del Drawer es la siguiente:
+
+ejecutar la línea de comando: “expo install react-native-reanimated”. Con esto vas a tener el recurso para utilizar el plugin en la configuración de babel.
+En el archivo “babel.config.js”:
+Agregar la línea de código: “plugins: [‘react-native-reanimated/plugin’]”, seguido del atributo “presets”
+Por último, con la instalación del recurso de react y la configuración del plugin en babel hecha:
+Ejecutar la línea de comando: “expo start --clear”.
+Una vez que el servidor está corriendo, entrar a localhost:19002, eso te llevará a la página del servidor local.
+Entrar desde el celular a la aplicación Expo Go y tomar la captura del código QR de la página.

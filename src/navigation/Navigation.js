@@ -1,5 +1,6 @@
-import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import React from "react";
+import { StyleSheet } from "react-native";
 import HomeScreen from "../screens/HomeScreen";
 import SettingScreen from "../screens/SettingScreen";
 
@@ -13,3 +14,4 @@ export default function Navigation() {
     </Stack.Navigator>
   );
 }
+
